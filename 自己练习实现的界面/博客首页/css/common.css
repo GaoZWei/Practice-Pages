@@ -1,32 +1,50 @@
-body {
+body,html {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
     /* background-color: blue; */
     background-color:seashell;
 }
-
+/* 头部header的img
+header{
+    height: 100px;
+} 
+.img{
+    position: fixed;
+    margin-top: 100px; 
+} */
+.body .img{
+    position: absolute;
+    margin: 10px;
+}
 .img {
     position: absolute;
-    margin-left: 12%;
+    /* margin-left: 12%; */
     margin-right: 12%;
-    width: 74%;
-    height: 45%;
+    /* width: 74%; */
+    width: 100%;
+    /* height: 45%; */
 }
 .top {
     position: relative;
     /* align-items: center; */
+    padding-top: 100px;
+    background-image: url("../img/head.png" );
+    background-size:100% 100%;
     width: 100%;
-    height: 392px;
+    /* height: 392px; */
 }
 .topText {
     /* display: table-cell; */
+   
     vertical-align: middle;
     text-align: center;
     color: white;
     /*设置文本水平居中*/
     width: 100%;
 }
-header{
+.navgroup{
     position: relative;
     margin-top:1%; 
     width: 100%;
@@ -40,18 +58,18 @@ nav ul li{
     display: inline-block;
 }
 .button{
-    border: solid gainsboro ;
+    border: 1px solid gainsboro ;
     /* border: solid lightgray ; */
     text-decoration: none;
-    border-radius:45%;
+    border-radius:40px;
     padding: 1em 2.5em;
 }
 .button:hover{
     background-color:black;
     color: white;
-    border: solid black;
+    border: 1px solid black;
     text-decoration: none;
-    border-radius:45%;
+    border-radius:40px;
     padding: 1em 2.5em;
 }
 @media screen and (max-width: 1300px) {
@@ -62,9 +80,9 @@ nav ul li{
         position: relative;
         /* align-items: center; */
         width: 100%;
-        height: 262px;
+        height: 280px;
     }
-    header{
+    .navgroup{
         position: relative;
         /* margin-top:1%;  */
         width: 100%;
@@ -74,11 +92,12 @@ nav ul li{
     }
     nav ul{
         position: absolute;
-        margin-left:22%;
+        margin-left:18%;
         /* background-color: brown; */
     }
     nav ul li{
         display: inline-block;
+        padding: 5px;
         margin-left: 20px;
     }
     

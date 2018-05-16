@@ -1,9 +1,9 @@
 body.home nav li a.home .button {
     background-color: black;
     color: white;
-    border: solid black;
+    border:1px solid black;
     text-decoration: none;
-    border-radius: 45%;
+    border-radius: 40px;
     padding: 1em 2.5em;
 }
 
