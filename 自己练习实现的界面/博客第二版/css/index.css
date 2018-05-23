@@ -177,6 +177,8 @@ body {
   margin-top: -5px;
   width: 80%;
   letter-spacing: 1px;
+  line-height: 22px;
+  color: gray;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -236,7 +238,7 @@ body {
   font-size: 10px;
   font-weight: 500;
   border-radius: 20px;
-   margin: 4px;
+  margin: 4px;
 }
 
 .btn_style:hover {
@@ -244,4 +246,70 @@ body {
   border-color: #1F9ED1;
   background-color: #fff;
   color: #1F9ED1;
+}
+
+/* 主内容区 */
+
+/* 日期 */
+
+.main_date {
+  color: gray;
+}
+
+/* 内容的链接 */
+
+.media-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.media-body a:hover {
+  color: gray;
+}
+
+/* 字符间距 */
+
+.letterspacing {
+  width: 90%;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* 分割线 */
+
+.split {
+  margin: 10px auto;
+  border-color: #E6E6E6;
+}
+/* 标签tag */
+.tags{
+  padding-top:5px; 
+}
+.tags a{
+  color: #7b7e82;
+}
+
+
+/* 内容区按钮位置 */
+.btn_content_style{
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin: 4px;
+  color: #7b7e82;
+  border: 1px solid #324b4e;
+}
+.btn_content_style:hover{
+  border-radius: 20px;
+  /* border-color: black; */
+  border-color: #1F9ED1;
+  background-color: #fff;
+  /* color: black; */
+  color: #1F9ED1;
+}
+/* 底部 */
+footer{
+  line-height: 25px;
+  padding-bottom: 10px;
 }
