@@ -308,6 +308,31 @@ body {
   /* color: black; */
   color: #1F9ED1;
 }
+/* 返回顶部 */
+#back-to-top{
+  position: fixed;
+  bottom: 18px;
+  right: 12px;
+}
+#back-to-top a{
+  text-align: center;
+  text-decoration: none;
+  /* display: block; */
+}
+.fa-chevron-up{
+  color: white;
+}
+#back-to-top a span {
+  display: block;
+  background-color: #19abd6;
+  border: 1px solid #19abd6;
+  border-radius: 120px;
+  padding: 12px;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 5px;
+}
+
 /* 底部 */
 footer{
   line-height: 25px;

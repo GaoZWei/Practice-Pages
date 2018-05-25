@@ -10,8 +10,10 @@
 
   <!-- Bootstrap -->
   <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/index.css">
   <link rel="stylesheet" type="text/css" href="./css/color.css">
+  <link href="https://cdn.shaozb.xin/Blog/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
   <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
   <!--[if lt IE 9]>
@@ -38,7 +40,7 @@
             <span class="sr-only">Blog nav</span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand test" href="#">Gzw 的博客</a>
+          <a class="navbar-brand test" href="index.html">Gzw 的博客</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -48,16 +50,16 @@
               <a href="index.html">主页</a>
             </li>
             <li>
-              <a href="#">前端知识</a>
+              <a href="front_end.html">前端知识</a>
             </li>
             <li>
-              <a href="#">其他爱好</a>
+              <a href="problem_list.html">问题解决</a>
             </li>
             <li>
-              <a href="#">问题解决</a>
+              <a href="hobby.html">其他爱好</a>
             </li>
             <li>
-              <a href="#">留言模块</a>
+              <a href="personal.html">关于</a>
             </li>
           </ul>
         </div>
@@ -74,102 +76,112 @@
     </div>
 
   </header>
-  <!-- <div class="container-fluid">
-        <img src="img/06.jpeg" class="img-responsive" alt="">     
-  </div> -->
-  <!-- <div class="container">
-    <div class="jumbotron">
-      <h1>Welcome to my Blog</h1>
-      <p>
-        <h4>Use your heart,listening to my stories!
-          <br> Please don't forget to be a interesting people</h4>
-      </p>
-      <p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">继续了解 &gt;</a>
-      </p>
-    </div>
-  </div> -->
+
   <!-- /.container -->
   <div class="container main_article">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-8 col-sm-12">
         <!-- 媒体对象列表 -->
         <ul class="media-list">
           <li class="media">
-            <div class="media-left media-middle">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="./img/02.jpeg" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <a href="front_content.html">
+                <h3 class="media-heading  media-heading">CSS加载方式link与@import的区别</h3>
+                <h5 class="main_date">·&nbsp; 2018年05月22日</h5>
+                <p class="letterspacing"> 我们都知道,link与@import都是加载css文件,但是还是存在细小的差别. 
+                  1.老祖宗的不同
+                  link属于XHTML的标签 
+                  @import只是css提供的一种方式 
+                  link标签还可以加载css之外的东西,例如定义Rss,定义rel连接属性 
+                  @import只能加载css...</p>
+              </a>
+            </div>
+            <hr class="split">
+            <div>
+              <div class="col-md-9 tags">
+                <a href="#">
+                  <i class="fa fa-tags" aria-hidden="true"></i>&nbsp;HTML</a>&nbsp;
+                <a href="#">
+                  <i class="fa fa-tags" aria-hidden="true"></i>&nbsp;CSS</a>
+              </div>
+              <div class="col-md-3">
+                <p class="btn pull-right  btn_content_style" href="#" role="button">阅读全文 &gt;</p>
+              </div>
+            </div>
+
+          </li>
+          <li class="media">
+            <div class="media-left">
               <a href="#">
                 <img class="media-object" src="./img/01.jpg" alt="...">
               </a>
             </div>
             <div class="media-body">
-              <h4 class="media-heading">Media heading</h4>
-              Media heading Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus
-              odio, vestibulum in vulputate at, tempus viverra turpis.
-              <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">阅读全文 &gt;</a>
-              </p>
+                <a href="problem_content.html">
+                  <h3 class="media-heading  media-heading">MAC 下解决端口占用的问题</h3>
+                  <h5 class="main_date">·&nbsp; 2018年05月22日</h5>
+                  <p class="letterspacing">终端输入：sudo lsof -i tcp:port 将port换成被占用的端口(如：8086、9998) 将会出现占用端口的进程信...</p>
+                </a>
+              </div>
+            <hr class="split">
+            <div>
+              <div class="col-md-9 tags">
+                <a href="#">
+                  <i class="fa fa-tags" aria-hidden="true"></i>&nbsp;HTML</a>&nbsp;
+                <a href="#">
+                  <i class="fa fa-tags" aria-hidden="true"></i>&nbsp;CSS</a>
+              </div>
+              <div class="col-md-3">
+                <p class="btn pull-right  btn_content_style" href="#" role="button">阅读全文 &gt;</p>
+              </div>
             </div>
+
           </li>
           <li class="media">
-            <div class="media-left media-middle">
+            <div class="media-left">
               <a href="#">
-                <img class="media-object " src="./img/01.jpg" alt="...">
+                <img class="media-object" src="./img/02.jpeg" alt="...">
               </a>
             </div>
             <div class="media-body">
-              <h4 class="media-heading">Media heading</h4>
-              Media heading Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus
-              odio, vestibulum in vulputate at, tempus viverra turpis.
-              <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">阅读全文 &gt;</a>
-              </p>
-            </div>
-          </li>
-          <li class="media">
-            <div class="media-left media-middle">
               <a href="#">
-                <img class="media-object" src="./img/01.jpg" alt="...">
+                <h3 class="media-heading  media-heading">史上最全的Webstorm快捷键及技巧</h3>
+                <h5 class="main_date">·&nbsp; 2018年05月22日</h5>
+                <p class="letterspacing"> Webstorm是一款前端开发神器，此文介绍webstorm的快捷键和技巧分享。 所谓工欲善其事，必先利其器嘛，想着如果要提高开发效率，那掌握一些常用的快捷键应该是少不了的，所以把webstorm快捷键及技巧分享给大家。持续更新中...</p>
               </a>
             </div>
-            <div class="media-body">
-              <h4 class="media-heading">Media heading</h4>
-              Media heading Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus
-              odio, vestibulum in vulputate at, tempus viverra turpis.
-              <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">阅读全文 &gt;</a>
-              </p>
-              </p>
+            <hr class="split">
+            <div>
+              <div class="col-md-9 tags">
+                <a href="#">
+                  <i class="fa fa-tags" aria-hidden="true"></i>&nbsp;HTML</a>&nbsp;
+                <a href="#">
+                  <i class="fa fa-tags" aria-hidden="true"></i>&nbsp;CSS</a>
+              </div>
+              <div class="col-md-3">
+                <p class="btn pull-right  btn_content_style" href="#" role="button">阅读全文 &gt;</p>
+              </div>
             </div>
           </li>
+
         </ul>
         <!-- 分页的实现 -->
 
         <div class="center-block">
-          <nav aria-label="Page navigation">
-            <ul class="pagination">
-              <li>
-                <a href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
+          <nav aria-label="...">
+            <ul class="pager">
+              <li class="previous disabled">
+                <a href="#">
+                  <span aria-hidden="true">&larr;</span> 上一页</a>
               </li>
-              <li>
-                <a href="#">1</a>
-              </li>
-              <li>
-                <a href="#">2</a>
-              </li>
-              <li>
-                <a href="#">3</a>
-              </li>
-              <li>
-                <a href="#">4</a>
-              </li>
-              <li>
-                <a href="#">5</a>
-              </li>
-              <li>
-                <a href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
+              <li class="next">
+                <a href="#">下一页
+                  <span aria-hidden="true">&rarr;</span>
                 </a>
               </li>
             </ul>
@@ -203,18 +215,19 @@
             <b>文章分类</b>
           </h3>
           <div class="list-group">
-            <a href="#" class="list-group-item active">
+            <!-- <a href="#" class="list-group-item active"> -->
+            <a href="front_end.html" class="list-group-item">
               前端知识
-              <span class="badge">5</span>
+              <span class="badge">1</span>
             </a>
-            <a href="#" class="list-group-item">问题解决
-              <span class="badge">4</span>
+            <a href="problem_list.html" class="list-group-item">问题解决
+              <span class="badge">1</span>
             </a>
             <a href="#" class="list-group-item">文章转发
-              <span class="badge">10</span>
+              <span class="badge"></span>
             </a>
             <a href="#" class="list-group-item">常用组件
-              <span class="badge">2</span>
+              <span class="badge"></span>
             </a>
           </div>
         </div>
@@ -230,91 +243,25 @@
           <a class="btn btn-default btn_style" href="#" role="button">组件</a>
           <a class="btn btn-default btn_style" href="#" role="button">总结</a>
         </div>
-
-        <!-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingOne">
-              <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  前端知识
-                </a>
-              </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-              <div class="panel-body">
-                <a href="#" class="list-group-item">HTML</a>
-                <a href="#" class="list-group-item">CSS</a>
-                <a href="#" class="list-group-item">JavaScript</a>
-                <a href="#" class="list-group-item">其他框架</a>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingTwo">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                  aria-controls="collapseTwo">
-                  问题解决
-                </a>
-              </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-              <div class="panel-body">
-                <a href="#" class="list-group-item">问题一</a>
-                <a href="#" class="list-group-item">问题二</a>
-                <a href="#" class="list-group-item">问题三</a>
-                <a href="#" class="list-group-item">问题四</a>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-                  aria-controls="collapseThree">
-                  个人爱好
-                </a>
-              </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-              <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingFour">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false"
-                  aria-controls="collapseFour">
-                  社交链接
-                </a>
-              </h4>
-            </div>
-            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-              <div class="panel-body">
-                <div class="panel-body">
-                  <a href="#" class="list-group-item">Github</a>
-                  <a href="#" class="list-group-item">WeChat</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-
       </div>
       <!-- col-md-4 -->
     </div>
     <!-- row-->
   </div>
   <!--container-->
+  <p id="back-to-top">
+    <a href="#top">
+      <span>
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+      </span>
+    </a>
+  </p>
   <footer>
     <div class="text-center">
-      <div class="text-muted copyright bg-info">
-        &copy; 2017 - 2018
+      <div class="text-muted copyright ">
+        &copy; 2017 - 2018 &nbsp;
         <i class="fa fa-heart"></i>
-        ZhengWei Gao
+        &nbsp; ZhengWei Gao
         <br> Github:
         <a target="_blank" href="https://github.com/GaoZWei">GaoZWei</a>
         &nbsp;&nbsp;&nbsp;邮箱:
@@ -322,7 +269,27 @@
       </div>
     </div>
   </footer>
-
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#back-to-top").hide();
+      $(function () {
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > 300) {
+            $("#back-to-top").fadeIn(500);
+          } else {
+            $("#back-to-top").fadeOut(500);
+          }
+        });
+        $('#back-to-top').click(function () {
+          $('body,html').animate({
+            scrollTop: 0
+          }, 500);
+          return false;
+        });
+      });
+    });
+  </script>
 
   <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
   <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>GZW 's Blog</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/color.css">
+    <link rel="stylesheet" tyep="text/css" href="./css/personal.css">
+    <link href="https://cdn.shaozb.xin/Blog/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- 自动获取屏幕宽度 -->
+    <script>
+        setTimeout(function () {
+            document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px';
+        }, 20);
+    </script>
+    <header class="page__header" style="background-image:url('./img/06.jpeg')">
+        <nav class="navbar navpadding">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display 在这: navbar-inverse navbar-fixed-top-->
+                <div class="navbar-header top">
+                    <button type="button" class="navbar-toggle collapsed nav-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <i class="iconfont icon-menu"></i>
+                        <span class="sr-only">Blog nav</span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand test" href="index.html">Gzw 的博客</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right top">
+                        <li>
+                            <a href="index.html">主页</a>
+                        </li>
+                        <li>
+                            <a href="front_end.html">前端知识</a>
+                        </li>
+                        <li>
+                            <a href="problem_list.html">问题解决</a>
+                        </li>
+                        <li>
+                            <a href="hobby.html">其他爱好</a>
+                        </li>
+                        <li>
+                            <a href="personal.html">关于</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <div class="top_title">
+            <h1>GZW 'S BLOG
+            </h1>
+            <hr class="top_hr">
+            <p>日常学习与兴趣交流</p>
+        </div>
+
+    </header>
+
+    <!-- /.container -->
+    <div class="container-fluid">
+        <div class="about_myself">
+            <h3>关于我</h3>
+            <div class="myself">
+                <p>
+                    <b>一个小菜鸟,在前端的路上不断前行.</b>
+                    <p>
+            </div>
+            <div class="specific">
+                <p> 热爱前端开发,积极向上,喜欢尝试新的东西,音乐,健身,锻炼,玩,旅游。
+                    <br> 如果有想一起进行以上项目的,欢迎交流.
+                </p>
+            </div>
+            <div class="contact">
+                <p>
+                    以下是我的联系方式
+                    <br>
+                    <br>·&nbsp;Github:
+                    <a href="https://github.com/GaoZWei">https://github.com/GaoZWei</a>
+                    <br>·&nbsp;邮件:
+                    <a href="mailto:1520045270@qq.com">1520045270@qq.com</a>
+                    <br>·&nbsp;其他方式:
+                    <a href="">微博</a>
+                    <a href="">知乎</a>
+                </p>
+            </div>
+        </div>
+        <div class="web_aim">
+            <h3>建站初衷</h3>
+            <div class="myself">
+                <p>
+                    <b>记录自己的生活,分享有趣的东西</b>
+                    <p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="col-md-9">
+                        <a href="#">35</a>条评论</div>
+                    <div class="col-md-3">
+                        <div class="btn-group">
+                            <button type="button" class="btn  text-right dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                未登录用户
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Github</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another way</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row content">
+                <div class="content_icon">
+                    <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+                </div>
+                <textarea class="text_areastyle" name="" id="">说点什么吧</textarea>
+            </div>
+
+            <div class="row content">
+                <div class="content_icon">
+                    <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+                </div>
+                <p class="text_areastyle">测试下关于页面评论
+                    <br> 测试下关于页面评论
+                    <br> 测试下关于页面评论
+                    <br> 测试下关于页面评论
+                </p>
+            </div>
+            <div class="row comment_content">
+                <div class="row">
+                    <div class="col-md-1">
+                        <i class="fa fa-google fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-11 comment_contentp">
+                        <p>测试下关于页面评论
+                            <br> 测试下关于页面评论
+                            <br> 测试下关于页面评论
+                            <br> 测试下关于页面评论
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="web_share">
+
+        </div>
+    </div>
+    <footer>
+        <div class="text-center">
+            <div class="text-muted copyright bg-info">
+                &copy; 2017 - 2018
+                <i class="fa fa-heart"></i>
+                ZhengWei Gao
+                <br> Github:
+                <a target="_blank" href="https://github.com/GaoZWei">GaoZWei</a>
+                &nbsp;&nbsp;&nbsp;邮箱:
+                <span>1520045270@qq.com</span>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
