@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>博客管理页面</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/admin.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
+
+    <![endif]-->
+</head>
+<body>
+<div class="container-fluid">
+    <div class="page-header">
+        <h1>博客后台管理页面</h1>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <!--侧导航栏-->
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active bg-danger admin_content_top" id="content_top"><a href="#">博客管理</a></li>
+                <li role="presentation" class="admin_content"><a href="createblog.html">新建博客</a></li>
+                <li role="presentation" class="admin_content"><a href="deleteblog.html">删除博客</a></li>
+                <li role="presentation" class="admin_content"><a href="modify.html">修改博客</a></li>
+                <li role="presentation" class="bg-warning" id="sort_top"><a href="#">分类管理</a></li>
+                <li role="presentation"  class="admin_content1"><a href="createsort.html">增加分类</a></li>
+                <li role="presentation"  class="admin_content1"><a href="deletesort.html">删除分类</a></li>
+                <li role="presentation"  class="admin_content1"><a href="modifysort.html">修改分类</a></li>
+                <li role="presentation" class="bg-success" id="tag_top"><a href="#">标签管理</a></li>
+                <li role="presentation"  class="admin_content2"><a href="createtag.html">增加标签</a></li>
+                <li role="presentation"  class="admin_content2"><a href="deletetag.html">删除标签</a></li>
+                <li role="presentation"  class="admin_content2"><a href="modifytag.html">修改标签</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-10">
+            <!--主内容区-->
+            <!--准备使用ajax局部刷新-->
+            <!--路径导航-->
+
+            <div class="container-fluid">
+                <ol class="breadcrumb">
+                    <li><a href="#">管理员界面</a></li>
+                    <li><a href="#">内容管理</a></li>
+                    <li class="active">修改标签</li>
+                </ol>
+                <form>
+                    <div class="form-group">
+                        <label for="blogtitle">标签名</label>
+                        <input type="text" class="form-control" id="blogtitle" placeholder="在此输入要修改的标签名">
+                    </div>
+                    <div class="form-group">
+                        <label for="blogtitle">修改后的标签名</label>
+                        <input type="text" class="form-control" id="blogtitle" placeholder="在此输入修改后的标签名">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> 我已阅读伟哥管理条例
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-info">提交修改</button>
+                    <button type="reset" class="btn btn-danger">取消修改</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    // 把arr中的隐藏
+    function hide(arr) {
+        for (var i = 0; i < arr.length; i++) {
+            arr[i].setAttribute("style", "display:none");
+        }
+    }
+    //把a的后三项显示
+    function show(a) {
+        a.nextElementSibling.setAttribute('style', 'display:block');
+        a.nextElementSibling.nextElementSibling.setAttribute('style', 'display:block');
+        a.nextElementSibling.nextElementSibling.nextElementSibling.setAttribute('style', 'display:block');
+    }
+    window.onload = function () {
+        var adminContent = document.getElementsByClassName("admin_content");
+        var adminContent1 = document.getElementsByClassName("admin_content1");
+        var adminContent2= document.getElementsByClassName("admin_content2");
+        //隐藏三项
+        // hide(adminContent);
+        // hide(adminContent1);
+        // hide(adminContent2);
+        //内容
+        var content_top = document.getElementById('content_top');
+        //show(content_top);
+        content_top.onclick = function () {
+            hide(adminContent1);
+            hide(adminContent2);
+            if (content_top.nextElementSibling.getAttribute("style") == "display:block") {
+                hide(adminContent);
+            } else {
+                show(content_top);
+            }
+        }
+        //分类
+        var sort_top = document.getElementById('sort_top');
+        sort_top.onclick = function () {
+            hide(adminContent);
+            hide(adminContent2);
+            if (sort_top.nextElementSibling.getAttribute("style") == "display:block") {
+                hide(adminContent1);
+            } else {
+                show(sort_top);
+            }
+        }
+        //标签
+        var tag_top = document.getElementById('tag_top');
+        tag_top.onclick = function () {
+            hide(adminContent);
+            hide(adminContent1);
+            if (tag_top.nextElementSibling.getAttribute("style") == "display:block") {
+                hide(adminContent2);
+            } else {
+                show(tag_top);
+            }
+        }
+    };
+</script>
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

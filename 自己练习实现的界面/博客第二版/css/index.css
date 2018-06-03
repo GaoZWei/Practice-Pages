@@ -136,7 +136,7 @@ body {
   padding-left: 10px;
   border-radius: 42px;
   border: 2px solid #324b4e;
-  background: #f9f0da;
+  /* background: #f9f0da; */
   transition: 0.3s linear;
 }
 
@@ -282,17 +282,20 @@ body {
   margin: 10px auto;
   border-color: #E6E6E6;
 }
+
 /* 标签tag */
-.tags{
-  padding-top:5px; 
+
+.tags {
+  padding-top: 5px;
 }
-.tags a{
+
+.tags a {
   color: #7b7e82;
 }
 
-
 /* 内容区按钮位置 */
-.btn_content_style{
+
+.btn_content_style {
   font-size: 10px;
   font-weight: 500;
   border-radius: 20px;
@@ -300,7 +303,8 @@ body {
   color: #7b7e82;
   border: 1px solid #324b4e;
 }
-.btn_content_style:hover{
+
+.btn_content_style:hover {
   border-radius: 20px;
   /* border-color: black; */
   border-color: #1F9ED1;
@@ -308,20 +312,38 @@ body {
   /* color: black; */
   color: #1F9ED1;
 }
+
+/* 分页 */
+
+.paging {
+  position: relative;
+  height: 100px;
+}
+
+.paging nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* 返回顶部 */
-#back-to-top{
+
+#back-to-top {
   position: fixed;
   bottom: 18px;
   right: 12px;
 }
-#back-to-top a{
+
+#back-to-top a {
   text-align: center;
   text-decoration: none;
   /* display: block; */
 }
-.fa-chevron-up{
+
+.fa-chevron-up {
   color: white;
 }
+
 #back-to-top a span {
   display: block;
   background-color: #19abd6;
@@ -334,7 +356,8 @@ body {
 }
 
 /* 底部 */
-footer{
+
+footer {
   line-height: 25px;
   padding-bottom: 10px;
 }
