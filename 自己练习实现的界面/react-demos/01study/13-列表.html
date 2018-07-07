@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+
+  // const numbers=[1,2,3,4,5];
+  // const doubled=numbers.map((number)=>number*2);
+  // console.log(doubled);
+
+
+  //多组件渲染
+  //   const number1=[1,2,3,4,5];
+  //   const listItems=number1.map((number)=>
+  //       <li>{number}</li>
+  //   );
+
+  function NumberList(props){
+      const  numbers=props.numbers;
+      const listItems=numbers.map((number)=>
+          //数组中的每一个元素都应该有一个唯一不变的键(key)来标识
+         //多数情况下使用id作为key,没有id的时候,可以选择数据项的索引值作为key值
+          <li key={number.toString()}>
+              {number}
+          </li>
+      );
+      return (
+          <ul>{listItems}</ul>
+      );
+  }
+    const numbers=[1,2,3,4,5];
+
+    ReactDOM.render(
+        <NumberList numbers={numbers}/>,
+        document.getElementById('root')
+    );
+
+
+
+
+
+</script>
+<div id="root"></div>
+</body>
+</html>

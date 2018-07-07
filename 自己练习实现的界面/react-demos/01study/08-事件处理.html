@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    //this.handleclick.bind（this，要传的参数）  handleclick（传过来的参数，event）
+  class Toggle extends React.Component{
+        constructor(props){
+            super(props);
+            this.state={isToggleOn:true};
+
+            //this在回调中起作用
+            //一般情况下，如果你引用一个后面没跟 () 的方法，
+            // 例如 onClick={this.handleClick} ，那你就应该 绑定(bind) 该方法。
+             this.handleClick=this.handleClick.bind(this);
+        }
+        handleClick(){
+            this.setState(prevState=>({
+                isToggleOn:!prevState.isToggleOn
+            }));
+
+        }
+        render(){
+            return(
+                <button onClick={this.handleClick}>
+                    {this.state.isToggleOn?'ON':'OFF'}
+                </button>
+            )
+        }
+  }
+        ReactDOM.render(
+            <Toggle/>,
+            document.getElementById('root')
+      );
+        //在循环内部,通常需要一个额外的参数传递给时间处理程序
+        //<button onClick={(e)=>{this.deleteRow(id,e)}}>Delete Row</button>
+        //<button onClick={this.deleteRow.bind(this,id)}>Delete Row</button>
+</script>
+<div id="root"></div>
+</body>
+</html>

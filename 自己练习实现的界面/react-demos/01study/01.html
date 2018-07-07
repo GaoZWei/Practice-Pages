@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    function formatname(user) {
+        return user.firstname+" "+user.lastname
+    }
+    const user={
+        firstname:"gao",
+        lastname:"zw"
+    };
+    const element=(
+    <h1>
+        hello,{formatname(user)}!
+    </h1>
+    );
+    const  element2=(
+        <div>
+            <h1>Hello</h1>
+            <h2>This is the element2</h2>
+        </div>
+        // ,element包含怎么实现
+    );
+    //以下三者是等效的
+    const element3=(
+        <h1 className="greeting">
+            HEllo element3!
+        </h1>
+    );
+
+    const element4=React.createElement(
+        'h1',
+        {className:'greeting'},
+        'hello element4'
+    );
+    //以下是简化结构,不是变量
+    const element5 = {
+        type: 'h1',
+        props: {
+            className: 'greeting',
+            children: 'Hello, world'
+        }
+    };
+
+    ReactDOM.render(
+        // element,
+        //element2,
+        //element3,
+        // element4,
+        element5,
+        document.getElementById('root')
+    );
+
+</script>
+<div id="root">
+
+</div>
+</body>
+</html>

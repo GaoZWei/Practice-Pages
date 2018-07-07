@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+   //三段式
+function f() {
+    const isLoggedIn = this.state.isLoggedIn;
+    return (
+        <div>
+        The user is <b>{isLoggedIn ? 'currently' : 'not'}</b> logged in.
+        </div>
+            );
+}
+function f1() {
+    const isLoggedIn=this.state.isLoggedIn;
+    return(
+        <div>
+            {isLoggedIn?
+                (
+                <LogoutButton onClick={this.handleLogoutClick} />
+                ):
+                (
+                    <LoginButton onClick={this.handleLoginClick} />
+                )}
+        </div>
+    )
+}
+
+
+</script>
+<div id="root"></div>
+</body>
+</html>

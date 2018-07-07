@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    //函数式组件
+  function  Welcome(props) {
+      return <h1>Hello,{props.name}</h1>
+  }
+  //类组件
+   class Welcome1 extends  React.Component{
+      render(){
+          return <h1>Hello,{this.props.name}</h1>
+      }
+   }
+    //组件名称总是以大写字母开始。
+   const  element=<Welcome name="Sara"/>;
+
+   //创建一个App组件
+
+    function App(){
+        return(
+            <div>
+            <Welcome name="Sara"/>
+            <Welcome name="Tom"/>
+            <Welcome name="Jerry"/>
+            </div>
+        )
+    }
+
+
+   ReactDOM.render(
+       //element,
+       <App/>,
+       document.getElementById("root")
+   );
+
+
+</script>
+<div id="root"></div>
+</body>
+</html>
