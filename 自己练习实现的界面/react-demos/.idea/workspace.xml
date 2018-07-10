@@ -10,7 +10,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="19-表单-多个输入元素.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01study/19-表单-多个输入元素.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +48,10 @@
         <option value="$PROJECT_DIR$/01study/13-列表.html" />
         <option value="$PROJECT_DIR$/01study/15-数组取数据.html" />
         <option value="$PROJECT_DIR$/01study/14-key值的使用.html" />
+        <option value="$PROJECT_DIR$/01study/16-表单.html" />
+        <option value="$PROJECT_DIR$/01study/17-表单-文本输入域.html" />
+        <option value="$PROJECT_DIR$/01study/18-表单-文件输入.html" />
+        <option value="$PROJECT_DIR$/01study/19-表单-多个输入元素.html" />
       </list>
     </option>
   </component>
@@ -52,28 +66,29 @@
       <path value="$PROJECT_DIR$/demo13/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="791" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="151" />
     <option name="y" value="23" />
     <option name="width" value="1129" />
-    <option name="height" value="981" />
+    <option name="height" value="711" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="react-demos-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demos-master" type="462c0819:PsiDirectoryNode" />
+              <item name="react-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-demos-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demos-master" type="462c0819:PsiDirectoryNode" />
+              <item name="react-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
               <item name="01study" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -81,7 +96,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -107,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.15-数组取数据.html">
+  <component name="RunManager" selected="JavaScript Debug.19-表单-多个输入元素.html">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -127,11 +141,11 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="10-表达式&amp;&amp;和内联if.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos-master/01study/10-表达式&amp;&amp;和内联if.html" />
-    <configuration name="12-隐藏显示组件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos-master/01study/12-隐藏显示组件.html" />
-    <configuration name="13-列表.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos-master/01study/13-列表.html" />
-    <configuration name="14-key值的使用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos-master/01study/14-key值的使用.html" />
     <configuration name="15-数组取数据.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos-master/01study/15-数组取数据.html" />
+    <configuration name="16-表单-输入框.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/16-表单-输入框.html" />
+    <configuration name="17-表单-文本输入域.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/17-表单-文本输入域.html" />
+    <configuration name="18-表单-文件输入.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/18-表单-文件输入.html" />
+    <configuration name="19-表单-多个输入元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/19-表单-多个输入元素.html" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -155,19 +169,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.10-表达式&amp;&amp;和内联if.html" />
-      <item itemvalue="JavaScript Debug.12-隐藏显示组件.html" />
-      <item itemvalue="JavaScript Debug.13-列表.html" />
-      <item itemvalue="JavaScript Debug.14-key值的使用.html" />
       <item itemvalue="JavaScript Debug.15-数组取数据.html" />
+      <item itemvalue="JavaScript Debug.16-表单-输入框.html" />
+      <item itemvalue="JavaScript Debug.17-表单-文本输入域.html" />
+      <item itemvalue="JavaScript Debug.18-表单-文件输入.html" />
+      <item itemvalue="JavaScript Debug.19-表单-多个输入元素.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.19-表单-多个输入元素.html" />
+        <item itemvalue="JavaScript Debug.18-表单-文件输入.html" />
+        <item itemvalue="JavaScript Debug.17-表单-文本输入域.html" />
+        <item itemvalue="JavaScript Debug.16-表单-输入框.html" />
         <item itemvalue="JavaScript Debug.15-数组取数据.html" />
-        <item itemvalue="JavaScript Debug.14-key值的使用.html" />
-        <item itemvalue="JavaScript Debug.13-列表.html" />
-        <item itemvalue="JavaScript Debug.12-隐藏显示组件.html" />
-        <item itemvalue="JavaScript Debug.10-表达式&amp;&amp;和内联if.html" />
       </list>
     </recent_temporary>
   </component>
@@ -184,14 +198,18 @@
       <workItem from="1530327464021" duration="7879000" />
       <workItem from="1530794779944" duration="15837000" />
       <workItem from="1530931885145" duration="3834000" />
+      <workItem from="1530936990414" duration="176000" />
+      <workItem from="1531097044315" duration="8064000" />
+      <workItem from="1531185668275" duration="151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27550000" />
+    <option name="totallyTimeSpent" value="35941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="811" y="23" width="1129" height="981" extended-state="0" />
+    <frame x="151" y="23" width="1129" height="711" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -206,7 +224,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22355106" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23091076" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -240,6 +258,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01study/19-表单-多个输入元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01study/13-列表.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -367,17 +392,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01study/15-数组取数据.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01study/14-key值的使用.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/15-数组取数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="18" column="14" lean-forward="true" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/16-表单-输入框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="20" column="23" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/17-表单-文本输入域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/18-表单-文件输入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="20" lean-forward="true" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/19-表单-多个输入元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>

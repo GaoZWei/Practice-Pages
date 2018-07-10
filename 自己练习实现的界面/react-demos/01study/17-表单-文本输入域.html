@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    class EssayFrom extends React.Component{
+        constructor(props){
+            super(props);
+            this.state={
+                value: 'Please write an essay about your favorite DOM element.'
+            }
+            this.handleChange=this.handleChange.bind(this);
+            this.handleSubmit=this.handleSubmit.bind(this);
+        }
+        handleChange(event){
+                this.setState({
+                    value:event.target.value
+            });
+        }
+        handleSubmit(event){
+            alert('an eassay was submit'+this.state.value);
+            event.preventDefault();
+        }
+        render(){
+            return(
+                <form onSubmit={this.handleSubmit}>
+                    <label>
+                        Name:
+                        <textarea value={this.state.value} onChange={this.handleChange}/>
+                    </label>
+                    <input type="submit" value="Submit"/>
+                </form>
+            );
+        }
+    }
+    ReactDOM.render(
+        <EssayFrom/>,
+        document.getElementById('root')
+    );
+
+</script>
+<div id="root"></div>
+</body>
+</html>
