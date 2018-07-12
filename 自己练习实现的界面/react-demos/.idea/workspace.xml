@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44e8da14-ff0c-48c0-bb09-599620eca282" name="Default" comment="" />
+    <list default="true" id="44e8da14-ff0c-48c0-bb09-599620eca282" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="25-类定义组件组合.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01study/25-类定义组件组合.html">
+    <leaf>
+      <file leaf-file-name="26-基础实现-总结.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01study/26-基础实现-总结.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+            <state relative-caret-position="75">
+              <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -28,6 +31,14 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onInStockInput</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,6 +71,8 @@
         <option value="$PROJECT_DIR$/01study/24-组合的自定义prop.html" />
         <option value="$PROJECT_DIR$/01study/23-组合继承.html" />
         <option value="$PROJECT_DIR$/01study/25-类定义组件组合.html" />
+        <option value="$PROJECT_DIR$/01study/27.html" />
+        <option value="$PROJECT_DIR$/01study/26-基础实现-总结.html" />
       </list>
     </option>
   </component>
@@ -74,12 +87,13 @@
       <path value="$PROJECT_DIR$/demo13/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="628" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="509" />
     <option name="y" value="23" />
-    <option name="width" value="676" />
-    <option name="height" value="710" />
+    <option name="width" value="800" />
+    <option name="height" value="711" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -101,8 +115,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -129,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.25-类定义组件组合.html">
+  <component name="RunManager" selected="JavaScript Debug.26-基础实现-总结.html">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -149,11 +163,11 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="21-状态提升-抽取组件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/21-状态提升-抽取组件.html" />
-    <configuration name="22-状态提升-demo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/22-状态提升-demo.html" />
     <configuration name="23-组合继承.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/23-组合继承.html" />
     <configuration name="24-组合的自定义prop.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/24-组合的自定义prop.html" />
     <configuration name="25-类定义组件组合.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/25-类定义组件组合.html" />
+    <configuration name="26-基础实现-总结.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/26-基础实现-总结.html" />
+    <configuration name="26-基础实现-总结.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demos/react-demos-master/01study/26-基础实现-总结.html" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -177,19 +191,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.21-状态提升-抽取组件.html" />
-      <item itemvalue="JavaScript Debug.22-状态提升-demo.html" />
       <item itemvalue="JavaScript Debug.23-组合继承.html" />
       <item itemvalue="JavaScript Debug.24-组合的自定义prop.html" />
       <item itemvalue="JavaScript Debug.25-类定义组件组合.html" />
+      <item itemvalue="JavaScript Debug.26-基础实现-总结.html" />
+      <item itemvalue="JavaScript Debug.26-基础实现-总结.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.26-基础实现-总结.html" />
+        <item itemvalue="JavaScript Debug.26-基础实现-总结.html" />
         <item itemvalue="JavaScript Debug.25-类定义组件组合.html" />
         <item itemvalue="JavaScript Debug.23-组合继承.html" />
         <item itemvalue="JavaScript Debug.24-组合的自定义prop.html" />
-        <item itemvalue="JavaScript Debug.22-状态提升-demo.html" />
-        <item itemvalue="JavaScript Debug.21-状态提升-抽取组件.html" />
       </list>
     </recent_temporary>
   </component>
@@ -209,31 +223,31 @@
       <workItem from="1530936990414" duration="176000" />
       <workItem from="1531097044315" duration="8064000" />
       <workItem from="1531185668275" duration="4902000" />
-      <workItem from="1531268301641" duration="7109000" />
+      <workItem from="1531268301641" duration="8799000" />
+      <workItem from="1531354678049" duration="7752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47801000" />
+    <option name="totallyTimeSpent" value="57243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="628" y="23" width="676" height="710" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="711" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32899022" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26340693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332796" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -267,6 +281,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01study/26-基础实现-总结.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01study/21-状态提升-抽取组件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -429,13 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01study/16-表单-输入框.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="20" column="23" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01study/17-表单-文本输入域.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -471,9 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01study/23-组合/继承.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/23-组合/继承.html" />
     <entry file="file://$PROJECT_DIR$/01study/22-状态提升-demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -497,8 +509,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01study/25-类定义组件组合.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        <state relative-caret-position="237">
+          <caret line="63" column="23" lean-forward="true" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/26-基础实现-总结.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" selection-start-line="79" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/16-表单-输入框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/27.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="89" lean-forward="true" selection-start-line="52" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01study/26-基础实现-总结.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
         </state>
       </provider>
     </entry>
